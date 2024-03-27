@@ -28,6 +28,11 @@ class StoreAddressRequest extends BaseFormRequest
             'city' => 'required|string',
             'state' => 'required|string',
             'zip' => 'required|string',
+            'type' => 'required|integer',
+            'reference' => 'nullable|string',
+            'latitude' => 'nullable|string',
+            'longitude' => 'nullable|string',
+            'notes' => 'nullable|string',
         ];
     }
 
@@ -45,6 +50,7 @@ class StoreAddressRequest extends BaseFormRequest
             'city.required' => 'City is required',
             'state.required' => 'State is required',
             'zip.required' => 'Zip is required',
+            'type.required' => 'Type is required',
         ];
     }
 }

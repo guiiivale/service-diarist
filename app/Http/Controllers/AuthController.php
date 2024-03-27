@@ -22,7 +22,7 @@ class AuthController extends Controller
 
         $user = User::create($data);
 
-        $address = $user->addresses()->create($data['address']);
+        $user->addresses()->create($data['address']);
 
         $success['token'] = $user->createToken('MyApp')->plainTextToken;
         $success['name'] = $user->name;

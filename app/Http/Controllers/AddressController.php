@@ -14,6 +14,13 @@ class AddressController extends Controller
     public function index()
     {
         $addresses = Address::where('user_id', auth()->id())->get();
+        $addresses = $addresses->map(function ($address) {
+            $addressData = $address->toArray();
+
+            $addressData['type'] = $address->type->name();
+
+            return $addressData;
+        });
 
         return response()->json(['addresses' => $addresses], 200);
     }
