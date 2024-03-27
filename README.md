@@ -64,3 +64,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Visão Geral do Projeto
+Nome do Projeto: ??
+
+Objetivo: Conectar diaristas a potenciais clientes de maneira fácil e segura, proporcionando uma plataforma confiável para a contratação e oferta de serviços de limpeza doméstica.
+
+Funcionalidades & Requisitos
+
+Para Contratantes:
+Cadastro de Usuário: Nome, e-mail, senha, localização, tipo de imóvel, e outras informações relevantes sobre a moradia.
+Busca de Diaristas: Filtragem por localização, disponibilidade, e classificação.
+Perfil da Diarista: Visualização de detalhes, avaliações e reviews, agendamento e pagamento do serviço.
+Processo de Contratação: Seleção de período, horário, e diária. Pagamento com cartão com retenção do valor até a conclusão do serviço.
+
+Para Diaristas:
+Cadastro de Diarista: Informações pessoais, comprovante de residência, documentos e validação facial entre a foto do documento e a foto do perfil.
+Gestão de Solicitações: Visualização, aceitação, e rejeição de trabalhos.
+Conclusão do Trabalho: Marcação de trabalho como concluído e liberação para avaliação pelo contratante.
+
+
+
